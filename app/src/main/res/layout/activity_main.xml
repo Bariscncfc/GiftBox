@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logo_image"
+        android:layout_width="600dp"
+        android:layout_height="400dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/giftbox">
+
+    </ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Hediye seçmek artık çok kolay..."
+        android:layout_above="@+id/button_start_quiz"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:layout_marginTop="300dp"
+        android:layout_height="match_parent">
+
+    </TextView>
+
+    <ImageButton
+        android:id="@+id/button_start_quiz"
+        android:layout_width="220dp"
+        android:textSize="25dp"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/logo_image"
+        android:background="@drawable/strt"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_height="250dp">
+    </ImageButton>
+
+
+</RelativeLayout>
